@@ -4,8 +4,7 @@ Issue tickets have been created so that you can track your progress. As you comp
 
 ## Study Group Requirements
 
-- **Each** person should create a github assignment repo named `ASSIGNMENT-product-cards`
--  **Each** person should create a local folder in this location: `~/workspace/foundations/exercises/product-cards`. 
+- Clone this repo to your exercises directory
 - You should be using flexbox. 
 - Decide as a team how many branches you will need and what will happen on each branch (remember one feature per branch).
 
