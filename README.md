@@ -4,13 +4,11 @@ Issue tickets have been created so that you can track your progress. As you comp
 
 ## Study Group Requirements
 
-- Clone this repo to your exercises directory
 - You should be using flexbox. 
 - Decide as a team how many branches you will need and what will happen on each branch (remember one feature per branch).
 
 ## Setup
 * While in `~/workspace/foundations/exercises`, make a directory called `product-cards`
-* Create a github repository called `product-cards` and push up a README.md file
 * Create a setup branch and push up the usual stuff
 
 ## Requirements
