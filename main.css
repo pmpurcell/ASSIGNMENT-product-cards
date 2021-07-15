@@ -1,3 +1,11 @@
+/* The entire card has a box shadow.
+The card title has a solid 1px border that is `lightblue`.
+The title and product image are centered.
+Notice that the text for the description in the image is justified.
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text. */
+
+
 body {
     background-color: bisque;
 }
@@ -5,4 +13,20 @@ body {
 .cardbox {
     display: flex;
     flex-wrap: wrap;
+}
+
+.card {
+    border: 4px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: 10px
+}
+
+.card header {
+    border: 1px solid lightblue;
+    margin: auto;
+}
+
+.available {
+    background-color: darkgray;
+    color: yellow;
 }
