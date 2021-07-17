@@ -8,6 +8,7 @@ The availability element extends the full width of the card, with a dark grey ba
 
 body {
     background-color: #607D8B;
+    font-family: 'Playfair Display', serif;
 }
 
 .cardbox {
