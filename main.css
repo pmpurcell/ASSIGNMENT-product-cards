@@ -1,8 +1,8 @@
 /* The entire card has a box shadow. x
 The card title has a solid 1px border that is `lightblue`. x
-The title and product image are centered.
-Notice that the text for the description in the image is justified.
-The text for the product specification details and pricing details is bold.
+The title and product image are centered. x
+Notice that the text for the description in the image is justified. x
+The text for the product specification details and pricing details is bold. x
 The availability element extends the full width of the card, with a dark grey background and yellow text. x */
 
 
@@ -21,9 +21,21 @@ body {
     margin: 10px
 }
 
+.card > div > p {
+    text-align: justify;
+}
+
+.card img {
+    display: block;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .card > header > h2 {
     border: 1px solid lightblue;
-    margin: auto;
+    text-align: center;
 }
 
 .available {
