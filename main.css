@@ -7,7 +7,7 @@ The availability element extends the full width of the card, with a dark grey ba
 
 
 body {
-    background-color: bisque;
+    background-color: #607D8B;
 }
 
 .cardbox {
@@ -16,6 +16,7 @@ body {
 }
 
 .card {
+    background-color: #CFD8DC;
     border: 4px solid black;
     box-shadow: 5px 5px 5px black;
     margin: 10px
@@ -46,3 +47,14 @@ body {
 p {
 font-weight: bold;
 }
+
+
+
+/* .dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #00BCD4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; } */
