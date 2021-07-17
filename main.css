@@ -30,3 +30,7 @@ body {
     background-color: darkgray;
     color: yellow;
 }
+
+.card div + header {
+font: bold;
+}
