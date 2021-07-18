@@ -7,7 +7,8 @@ The availability element extends the full width of the card, with a dark grey ba
 
 .soldout {
     bottom: 200px;
-   float: right; 
+    display: flex;
+    float: right; 
     right: 25%;
 }
 
@@ -19,17 +20,27 @@ body {
 .cardbox {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .card {
+    align-items: center;
     background-color: #CFD8DC;
     border: 4px solid black;
     box-shadow: 5px 5px 5px black;
-    margin: 10px
+    box-sizing: content-box;
+    /* display: inline-block; */
+    /* flex-grow: 1; */
+    height: 700px;
+    margin: 10px;
+    width: 500px;
 }
 
 .card > div > p {
+    display: flex;
     text-align: justify;
+    object-fit: contain;
+    width: 100%;
 }
 
 .card img {
@@ -52,6 +63,7 @@ body {
 }
 
 p {
+font-size: 14px;
 font-weight: bold;
 }
 
