@@ -19,17 +19,24 @@ body {
 .cardbox {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 2;
 }
 
 .card {
+    align-items: center;
     background-color: #CFD8DC;
     border: 4px solid black;
     box-shadow: 5px 5px 5px black;
-    margin: 10px
+    /* display: inline; */
+    height: 700px;
+    margin: 10px;
+    width: 500px;
 }
 
 .card > div > p {
+    display: flex;
     text-align: justify;
+    object-fit: contain;
 }
 
 .card img {
@@ -53,6 +60,8 @@ body {
 
 p {
 font-weight: bold;
+object-fit: contain;
+padding left: 50%;
 }
 
 
